@@ -11,7 +11,7 @@
 (s/def ::id any?)
 (s/def ::on-resize-args (s/keys :req-un [::dispatch] :opt-un [::debounce-ms ::id]))
 
-(def *listeners* (atom {}))
+(def ^:dynamic *listeners* (atom {}))
 
 (defn- setup-listener! [event-type callback id]
   (let [key (events/listen js/window event-type (if (fn? callback)

@@ -1,6 +1,6 @@
-(defproject district0x/re-frame-window-fx "1.1.0-SNAPSHOT"
+(defproject org.clojars.ryrobes/re-frame-window-fx "1.1.0-SNAPSHOT"
   :description "re-frame effect handlers for browser window functions"
-  :url "https://github.com/district0x/re-frame-window-fx"
+  :url "https://github.com/ryrobes/re-frame-window-fx"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.10.1"]

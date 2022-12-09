@@ -16,3 +16,5 @@ pom.xml.asc
 /figwheel_server.log
 /tests-output/
 /re-frame-window-fx.iml
+.clj-kondo
+.lsp
